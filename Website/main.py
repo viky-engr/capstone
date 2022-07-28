@@ -128,6 +128,6 @@ def result():
 #...
 
 #start the local development server - if we get a webserver running comment this part out
-if __name__ == "__main__":
-    app.run(debug=True) #enable debugging - error messages will show in browser.
+#if __name__ == "__main__":
+    #app.run(debug=True) #enable debugging - error messages will show in browser.
     #navigate to http://127.0.0.1:5000/ or http://localhost:5000/ in browser to see outputs
