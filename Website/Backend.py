@@ -12,7 +12,6 @@ import seaborn as sns
 import pickle
 from sklearn import preprocessing
 from sklearn.preprocessing import MinMaxScaler
-from .main import main
 #%%
 
 plt.rcParams['figure.figsize'] = [8, 5]  # Bigger images
