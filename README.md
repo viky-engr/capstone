@@ -1,3 +1,3 @@
-# capstone
-BME 499 Uvic capstone project
-live demo version.  For complete version see https://github.com/amandaglegg/BME499Project 
+#BME499Project
+
+Initialized the github repo for our BME 499 project.
