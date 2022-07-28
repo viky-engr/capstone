@@ -11,7 +11,11 @@ import csv
 import os 
 
 from numpy import True_
+
+loader=jinja2.FileSystemLoader(os.path.join(os.path.dirname(__file__), 'templates'))
+
 app = Flask(__name__) #required to setup the dev server aka local host
+
 
 @app.route('/', methods=['get', 'post'])  #app route is the browser address, / is default.
 def index():
