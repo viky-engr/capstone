@@ -13,9 +13,9 @@ import jinja2
 
 from numpy import True_
 
-
-
-app = Flask(__name__, template_folder="templates") #required to setup the dev server aka local host
+dir_path=os.path.dirname(os.path.realpath(__file__))
+template_dir=os.path.join(dir_path,'templates')
+app = Flask(__name__, template_folder=template_dir) #required to setup the dev server aka local host
 
 
 @app.route('/', methods=['get', 'post'])  #app route is the browser address, / is default.
